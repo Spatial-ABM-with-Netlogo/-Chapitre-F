@@ -18,12 +18,6 @@ args <- commandArgs(TRUE)
 inPath <- file_path_as_absolute(args[1])
 outPath <- file_path_as_absolute(args[2]) 
 
-flist <- dir(path=inPath, pattern='population.*\\.csv$')
-for (fnam in flist) {
-    print(fnam)
- }
-
-
   
 repli10 <- read.csv(file.path(inPath,"ants_100s_10r.csv"),sep = ",")
 repli50 <- read.csv(file.path(inPath,"ants_100s_50r.csv"),sep = ",")
