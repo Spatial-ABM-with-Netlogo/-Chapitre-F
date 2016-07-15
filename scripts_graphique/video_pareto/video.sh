@@ -1,6 +1,6 @@
 #!/bin/bash
 
-RESULTS=../../scripts_experience/calibration/results
+RESULTS=../../scripts_experience/data-book/calibration
 OUT=./pics
 
 for i in {1..2000}

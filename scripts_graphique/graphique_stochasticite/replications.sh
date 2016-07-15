@@ -1,2 +1,2 @@
 #!/bin/bash
-Rscript replicationsBox.r "../../scripts_experience/replications/results/" "./"
+Rscript replicationsBox.r "../../scripts_experience/data-book/replications" "./"
